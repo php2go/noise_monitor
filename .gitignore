@@ -1,0 +1,9 @@
+.idea
+.DS_Store
+
+/archives/*
+/favorites/recordings/*
+/favorites/waveforms/*
+/recordings/*
+/waveforms/*
+/AGENTS.md1
