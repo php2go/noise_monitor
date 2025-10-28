@@ -44,6 +44,7 @@ noise_monitor/
 - macOS / Linux / Windows，推荐 macOS Sequoia 15.6.1
 - PHP 7.4（启用麦克风访问需在浏览器授权）
 - Node.js（可选，用于未来前端依赖）
+- 删除掉 favorites/favorites.log 的 demo 内容
 
 ### 本地运行
 1. 在项目根目录执行 `php -S 127.0.0.1:8080 -t .`
