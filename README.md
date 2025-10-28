@@ -54,12 +54,14 @@ noise_monitor/
 - macOS / Linux / Windows，推荐 macOS Sequoia 15.6.1
 - PHP 7.4（启用麦克风访问需在浏览器授权）
 - Node.js（可选，用于未来前端依赖）
-- 删除掉 favorites/favorites.log 的 demo 内容
+
 
 ### 本地运行
 1. 在项目根目录执行 `php -S 127.0.0.1:8080 -t .`
 2. 浏览器访问 `http://127.0.0.1:8080`，按提示授权麦克风。
 3. 远程访问者仅能查看历史记录；调试 mutating API 时请保持本地访问。
+4. 删除掉 favorites/favorites.log 的 demo 内容
+5. 收藏夹的内容无法在界面中删除，只能在 favorites 文件夹中手动删除，请谨慎添加收藏的内容。
 
 ### 内网穿透（远程访问）
 1. 使用内网穿透 URL，访问域名，即可用手机实时接受通知
