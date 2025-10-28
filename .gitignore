@@ -2,8 +2,13 @@
 .DS_Store
 
 /archives/*
+!archives/.gitkeep
 /favorites/recordings/*
+!favorites/recordings/.gitkeep
 /favorites/waveforms/*
+!favorites/waveforms/.gitkeep
 /recordings/*
+!recordings/.gitkeep
 /waveforms/*
-/AGENTS.md1
+!waveforms/.gitkeep
+/AGENTS.md
